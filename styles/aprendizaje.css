@@ -41,4 +41,9 @@
     .aprendizaje-list-texto{
         font-size: 15px;
     }
+    .aprendizaje__videos{
+        overflow: hidden;
+        height: 300px;
+
+    }
 }
