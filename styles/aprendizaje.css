@@ -1,0 +1,44 @@
+.aprendizaje{
+    width: 100%;
+    padding: 70px  20px 0px 20px;
+}
+.aprendizaje__titulo{
+    text-align: center;
+    margin-bottom: 25px;
+    color: var(--color-primario);
+}
+.aprendizaje__list-item{
+    display: flex;
+    align-items: center;
+
+}
+.aprendizaje__list-item{
+    margin-bottom: 10px;
+}
+.aprendizaje-list-icon{
+    font-size:30px;
+    color: var(--color-secundario);
+    margin-right: 10px;
+}
+.aprendizaje-list-texto{
+    font-size: 20px;
+}
+.aprendizaje__videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.video{
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .video{
+        width: 80%;
+    }
+    .aprendizaje-list-texto{
+        font-size: 15px;
+    }
+}

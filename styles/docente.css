@@ -1,0 +1,104 @@
+/* Estilos para la sección de docentes */
+.docentes {
+    margin-top: 20px;
+    background-color: var(--color-primario);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.docentes__titulo {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.docentes__contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.docentes__persona {
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.docentes__persona:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+}
+
+.docentes__imagen {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.docentes__nombre {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.docentes__descripcion {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.docentes__precio {
+    margin: auto;
+    width: 80%;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.docentes__precio-destacado {
+    color: var(--color-secundario);
+    font-weight: bold;
+}
+
+.docentes__enlace-compra {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.docentes__btn-compra {
+    background-color: var(--color-secundario);
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.docentes__btn-compra:hover {
+    background-color: #f59020; /* Un tono más claro para el efecto de hover */
+}
+
+@media screen and (max-width: 800px) {
+    .docentes__titulo{
+        font-size: 1.5rem;
+    }
+    .docentes__precio{
+        font-size: 16px;
+        padding: 5px;
+        text-align: justify;
+        
+    } 
+    .docentes__persona{
+        width: 80%;
+    }
+    .docentes__descripcion{
+        font-size: 16px;
+        text-align: justify;
+    }
+ }

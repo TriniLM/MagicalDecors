@@ -1,0 +1,79 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--color-primario);
+    color:white;
+}
+.footer__logo{
+    font-family: var(--font-logo);
+    font-size: 1.5rem;
+    line-height: 18px;
+    color: white;
+}
+.footer__form{
+    display: flex;
+    flex-direction: column;
+}
+.footer__form-input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.411);
+    color:black;
+}
+.footer__textarea{
+    width:400px ;
+    height: 80px;
+    border: none;
+    outline: none;
+    resize: none;
+    border: 5px;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+.footer__form-btn {
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    background-color:var(--color-secundario); /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición al pasar el mouse */
+}
+
+.footer__form-btn:hover {
+    background-color: #ff8b06; /* Color de fondo del botón al pasar el mouse */
+}
+
+/* Estilos adicionales según tus preferencias */
+
+@media screen and (max-width: 800px) {
+    .footer__copy{
+        display: flex;
+        
+    }
+    .footer__textarea{
+        width: 100%;
+    }
+    .footer__form{
+        margin: 10px;
+        align-items: center;
+    }
+    .footer__form-input{
+        width: 100%;
+    }
+    .footer__form-texto{
+        margin-bottom: 5px;
+    }
+    .footer__logo{
+        font-size: 15px;
+    }
+ }

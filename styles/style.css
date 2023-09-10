@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+
+:root{
+    --font-logo:'Urbanist', sans-seri;
+    --font-primary:'Roboto', sans-serif;
+    --color-primario:#23104d;
+    --color-secundario:#ff9a27;
+    --bg-primario:rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/*responsive desing*/
+

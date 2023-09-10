@@ -1,0 +1,76 @@
+.banner{
+    width: 100%;
+    height: 650px;
+    background-image: url(https://i.ibb.co/vmHdRH6/IMG-0822.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.banner__capa{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(255,154,39);
+    background: linear-gradient(51deg, rgb(139, 74, 0) 0%, rgb(19, 8, 41) 100%);
+    opacity: 0.7;
+}
+
+.banner__contenido{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 20px;
+    z-index: 2;
+    flex-wrap: wrap;
+
+}
+.banner__img{
+    background-image: url(https://res.cloudinary.com/dclgwdu77/image/upload/v1693019290/alurageek/Deco-4_oaujyv.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+}
+.banner__texto-titulo{
+    font-size: 1.6rem;
+    max-width: 600px;
+    color: var(--bg-primario);
+}
+.banner__texto-btn{
+    width: 300px;
+    height: 50px;
+    font-size:1.2rem;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: var(--color-secundario);
+    color: var(--bg-primario);
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .banner__img{
+        width: 250px;
+        height: 250px;
+    }
+    .banner__texto-titulo{
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .banner__wave{
+        bottom: -10px;
+    }
+    .banner{
+        height: 600px;
+    }
+}
