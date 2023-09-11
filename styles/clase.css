@@ -15,7 +15,7 @@ iframe{
 .btn-solicitar-curso {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--color-primario, #3498db); /* Puedes cambiar el color del botón aquí */
+    background-color: var(--color-secundario, #e7aa00); /* Puedes cambiar el color del botón aquí */
     color: white;
     text-decoration: none;
     border: none;
@@ -25,7 +25,7 @@ iframe{
 }
 
 .btn-solicitar-curso:hover {
-    background-color: var(--color-secundario, #2980b9); /* Puedes cambiar el color al pasar el mouse aquí */
+    background-color: var(--color-primario, #2980b9); /* Puedes cambiar el color al pasar el mouse aquí */
 }
 
 .contenedor__video{
