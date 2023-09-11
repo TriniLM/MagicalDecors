@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: var(--font-primary);
 }
-
+body{
+    scroll-behavior: smooth;
+}
 :root{
     --font-logo:'Urbanist', sans-seri;
     --font-primary:'Roboto', sans-serif;
