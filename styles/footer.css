@@ -6,6 +6,8 @@
     padding: 10px;
     background-color: var(--color-primario);
     color:white;
+    width: 100%;
+    min-height: 200px;
 }
 .footer__logo{
     font-family: var(--font-logo);
